@@ -36,3 +36,11 @@ D:\QuanLyChuyenBay\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInput
 D:\QuanLyChuyenBay\BusinessLayer\obj\Debug\Business.EA331CBA.Up2Date
 D:\QuanLyChuyenBay\BusinessLayer\obj\Debug\BusinessLayer.dll
 D:\QuanLyChuyenBay\BusinessLayer\obj\Debug\BusinessLayer.pdb
+G:\Lap trinh CSDL\BTL\QLCB\bin\Debug\BusinessLayer.dll.config
+G:\Lap trinh CSDL\BTL\QLCB\bin\Debug\BusinessLayer.dll
+G:\Lap trinh CSDL\BTL\QLCB\bin\Debug\BusinessLayer.pdb
+G:\Lap trinh CSDL\BTL\QLCB\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+G:\Lap trinh CSDL\BTL\QLCB\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+G:\Lap trinh CSDL\BTL\QLCB\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+G:\Lap trinh CSDL\BTL\QLCB\BusinessLayer\obj\Debug\BusinessLayer.dll
+G:\Lap trinh CSDL\BTL\QLCB\BusinessLayer\obj\Debug\BusinessLayer.pdb

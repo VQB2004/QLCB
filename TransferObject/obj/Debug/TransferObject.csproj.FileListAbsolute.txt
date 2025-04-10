@@ -30,3 +30,11 @@ D:\QuanLyChuyenBay\TransferObject\obj\Debug\TransferObject.csproj.CoreCompileInp
 D:\QuanLyChuyenBay\TransferObject\obj\Debug\Transfer.F5B4361A.Up2Date
 D:\QuanLyChuyenBay\TransferObject\obj\Debug\TransferObject.dll
 D:\QuanLyChuyenBay\TransferObject\obj\Debug\TransferObject.pdb
+G:\Lap trinh CSDL\BTL\QLCB\bin\Debug\TransferObject.dll.config
+G:\Lap trinh CSDL\BTL\QLCB\bin\Debug\TransferObject.dll
+G:\Lap trinh CSDL\BTL\QLCB\bin\Debug\TransferObject.pdb
+G:\Lap trinh CSDL\BTL\QLCB\TransferObject\obj\Debug\TransferObject.csproj.AssemblyReference.cache
+G:\Lap trinh CSDL\BTL\QLCB\TransferObject\obj\Debug\TransferObject.csproj.CoreCompileInputs.cache
+G:\Lap trinh CSDL\BTL\QLCB\TransferObject\obj\Debug\TransferObject.csproj.CopyComplete
+G:\Lap trinh CSDL\BTL\QLCB\TransferObject\obj\Debug\TransferObject.dll
+G:\Lap trinh CSDL\BTL\QLCB\TransferObject\obj\Debug\TransferObject.pdb

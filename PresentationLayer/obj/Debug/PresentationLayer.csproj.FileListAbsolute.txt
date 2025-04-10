@@ -77,3 +77,25 @@ D:\QuanLyChuyenBay\PresentationLayer\obj\Debug\PresentationLayer.csproj.CoreComp
 D:\QuanLyChuyenBay\PresentationLayer\obj\Debug\Presenta.9C561136.Up2Date
 D:\QuanLyChuyenBay\PresentationLayer\obj\Debug\PresentationLayer.exe
 D:\QuanLyChuyenBay\PresentationLayer\obj\Debug\PresentationLayer.pdb
+G:\Lap trinh CSDL\BTL\QLCB\bin\Debug\PresentationLayer.exe.config
+G:\Lap trinh CSDL\BTL\QLCB\bin\Debug\PresentationLayer.exe
+G:\Lap trinh CSDL\BTL\QLCB\bin\Debug\PresentationLayer.pdb
+G:\Lap trinh CSDL\BTL\QLCB\PresentationLayer\obj\Debug\PresentationLayer.csproj.AssemblyReference.cache
+G:\Lap trinh CSDL\BTL\QLCB\PresentationLayer\obj\Debug\PresentationLayer.csproj.SuggestedBindingRedirects.cache
+G:\Lap trinh CSDL\BTL\QLCB\PresentationLayer\obj\Debug\PresentationLayer.Controllers.ChuyenBayController.resources
+G:\Lap trinh CSDL\BTL\QLCB\PresentationLayer\obj\Debug\PresentationLayer.Controllers.HomeController.resources
+G:\Lap trinh CSDL\BTL\QLCB\PresentationLayer\obj\Debug\PresentationLayer.Controllers.MayBayController.resources
+G:\Lap trinh CSDL\BTL\QLCB\PresentationLayer\obj\Debug\PresentationLayer.Controllers.QuanLyVe_HoaDonController.resources
+G:\Lap trinh CSDL\BTL\QLCB\PresentationLayer\obj\Debug\PresentationLayer.Controllers.QuyDinhController.resources
+G:\Lap trinh CSDL\BTL\QLCB\PresentationLayer\obj\Debug\PresentationLayer.Controllers.SanBayController.resources
+G:\Lap trinh CSDL\BTL\QLCB\PresentationLayer\obj\Debug\PresentationLayer.Controllers.TaiKhoanNDController.resources
+G:\Lap trinh CSDL\BTL\QLCB\PresentationLayer\obj\Debug\PresentationLayer.Controllers.ThongKeBaoCaoController.resources
+G:\Lap trinh CSDL\BTL\QLCB\PresentationLayer\obj\Debug\PresentationLayer.Controllers.TuyenBayController.resources
+G:\Lap trinh CSDL\BTL\QLCB\PresentationLayer\obj\Debug\PresentationLayer.Login.resources
+G:\Lap trinh CSDL\BTL\QLCB\PresentationLayer\obj\Debug\PresentationLayer.Home.resources
+G:\Lap trinh CSDL\BTL\QLCB\PresentationLayer\obj\Debug\PresentationLayer.Properties.Resources.resources
+G:\Lap trinh CSDL\BTL\QLCB\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.cache
+G:\Lap trinh CSDL\BTL\QLCB\PresentationLayer\obj\Debug\PresentationLayer.csproj.CoreCompileInputs.cache
+G:\Lap trinh CSDL\BTL\QLCB\PresentationLayer\obj\Debug\PresentationLayer.csproj.CopyComplete
+G:\Lap trinh CSDL\BTL\QLCB\PresentationLayer\obj\Debug\PresentationLayer.exe
+G:\Lap trinh CSDL\BTL\QLCB\PresentationLayer\obj\Debug\PresentationLayer.pdb

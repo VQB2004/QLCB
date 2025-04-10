@@ -127,9 +127,8 @@
             this.lbGiaVe.ForeColor = System.Drawing.Color.Navy;
             this.lbGiaVe.Location = new System.Drawing.Point(699, 287);
             this.lbGiaVe.Name = "lbGiaVe";
-            this.lbGiaVe.Size = new System.Drawing.Size(146, 25);
+            this.lbGiaVe.Size = new System.Drawing.Size(0, 25);
             this.lbGiaVe.TabIndex = 93;
-            this.lbGiaVe.Text = "5.000.000 VNĐ";
             // 
             // label15
             // 
@@ -149,9 +148,8 @@
             this.lbTrangThai.ForeColor = System.Drawing.Color.Navy;
             this.lbTrangThai.Location = new System.Drawing.Point(726, 248);
             this.lbTrangThai.Name = "lbTrangThai";
-            this.lbTrangThai.Size = new System.Drawing.Size(135, 25);
+            this.lbTrangThai.Size = new System.Drawing.Size(0, 25);
             this.lbTrangThai.TabIndex = 91;
-            this.lbTrangThai.Text = "Chưa sử dụng";
             // 
             // label17
             // 
@@ -171,9 +169,8 @@
             this.lbNgayGioDi.ForeColor = System.Drawing.Color.Navy;
             this.lbNgayGioDi.Location = new System.Drawing.Point(742, 212);
             this.lbNgayGioDi.Name = "lbNgayGioDi";
-            this.lbNgayGioDi.Size = new System.Drawing.Size(112, 25);
+            this.lbNgayGioDi.Size = new System.Drawing.Size(0, 25);
             this.lbNgayGioDi.TabIndex = 89;
-            this.lbNgayGioDi.Text = "12/06/2025";
             // 
             // label27
             // 
@@ -193,9 +190,8 @@
             this.lbMaHD.ForeColor = System.Drawing.Color.Navy;
             this.lbMaHD.Location = new System.Drawing.Point(742, 173);
             this.lbMaHD.Name = "lbMaHD";
-            this.lbMaHD.Size = new System.Drawing.Size(111, 25);
+            this.lbMaHD.Size = new System.Drawing.Size(0, 25);
             this.lbMaHD.TabIndex = 87;
-            this.lbMaHD.Text = "132547747";
             // 
             // label29
             // 
@@ -215,9 +211,8 @@
             this.lbTenGhe.ForeColor = System.Drawing.Color.Navy;
             this.lbTenGhe.Location = new System.Drawing.Point(118, 287);
             this.lbTenGhe.Name = "lbTenGhe";
-            this.lbTenGhe.Size = new System.Drawing.Size(48, 25);
+            this.lbTenGhe.Size = new System.Drawing.Size(0, 25);
             this.lbTenGhe.TabIndex = 85;
-            this.lbTenGhe.Text = "A12";
             // 
             // label21
             // 
@@ -237,9 +232,8 @@
             this.lbTenHanhKhach.ForeColor = System.Drawing.Color.Navy;
             this.lbTenHanhKhach.Location = new System.Drawing.Point(229, 248);
             this.lbTenHanhKhach.Name = "lbTenHanhKhach";
-            this.lbTenHanhKhach.Size = new System.Drawing.Size(122, 25);
+            this.lbTenHanhKhach.Size = new System.Drawing.Size(0, 25);
             this.lbTenHanhKhach.TabIndex = 83;
-            this.lbTenHanhKhach.Text = "Phạm Văn B";
             // 
             // label25
             // 
@@ -289,9 +283,8 @@
             this.lbChuyenBay.ForeColor = System.Drawing.Color.Navy;
             this.lbChuyenBay.Location = new System.Drawing.Point(197, 212);
             this.lbChuyenBay.Name = "lbChuyenBay";
-            this.lbChuyenBay.Size = new System.Drawing.Size(56, 25);
+            this.lbChuyenBay.Size = new System.Drawing.Size(0, 25);
             this.lbChuyenBay.TabIndex = 75;
-            this.lbChuyenBay.Text = "1234";
             // 
             // label19
             // 
@@ -318,6 +311,7 @@
             this.btnTimKiemVe.TabIndex = 73;
             this.btnTimKiemVe.Text = "Tìm kiếm";
             this.btnTimKiemVe.UseVisualStyleBackColor = false;
+            this.btnTimKiemVe.Click += new System.EventHandler(this.btnTimKiemVe_Click);
             // 
             // label20
             // 
@@ -337,9 +331,8 @@
             this.lbTuyenBay.ForeColor = System.Drawing.Color.Navy;
             this.lbTuyenBay.Location = new System.Drawing.Point(186, 173);
             this.lbTuyenBay.Name = "lbTuyenBay";
-            this.lbTuyenBay.Size = new System.Drawing.Size(153, 25);
+            this.lbTuyenBay.Size = new System.Drawing.Size(0, 25);
             this.lbTuyenBay.TabIndex = 71;
-            this.lbTuyenBay.Text = "Hà Nội - Hoa Kỳ";
             // 
             // label22
             // 
