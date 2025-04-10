@@ -1,0 +1,42 @@
+C:\Users\DELL\Desktop\FlightManagement\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\DELL\Desktop\FlightManagement\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\DELL\Desktop\FlightManagement\DataLayer\bin\Debug\TransferObject.dll
+C:\Users\DELL\Desktop\FlightManagement\DataLayer\bin\Debug\TransferObject.pdb
+C:\Users\DELL\Desktop\FlightManagement\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\FlightManagement\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\FlightManagement\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\DELL\Desktop\FlightManagement\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\DELL\Desktop\FlightManagement\bin\Debug\DataLayer.dll
+C:\Users\DELL\Desktop\FlightManagement\bin\Debug\DataLayer.pdb
+C:\Users\DELL\Desktop\FlightManagement\DataLayer\obj\Debug\DataLayer.csproj.Up2Date
+G:\Lap trinh CSDL\BTL\QuanLyChuyenBay\bin\Debug\DataLayer.dll
+G:\Lap trinh CSDL\BTL\QuanLyChuyenBay\bin\Debug\DataLayer.pdb
+G:\Lap trinh CSDL\BTL\QuanLyChuyenBay\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+G:\Lap trinh CSDL\BTL\QuanLyChuyenBay\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+G:\Lap trinh CSDL\BTL\QuanLyChuyenBay\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+G:\Lap trinh CSDL\BTL\QuanLyChuyenBay\DataLayer\obj\Debug\DataLayer.dll
+G:\Lap trinh CSDL\BTL\QuanLyChuyenBay\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\DELL\Desktop\QuanLyChuyenBay\bin\Debug\DataLayer.dll
+C:\Users\DELL\Desktop\QuanLyChuyenBay\bin\Debug\DataLayer.pdb
+C:\Users\DELL\Desktop\QuanLyChuyenBay\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\QuanLyChuyenBay\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\QuanLyChuyenBay\DataLayer\obj\Debug\DataLayer.csproj.Up2Date
+C:\Users\DELL\Desktop\QuanLyChuyenBay\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\DELL\Desktop\QuanLyChuyenBay\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\DELL\Desktop\QuanLyChuyenBay\bin\Debug\DataLayer.dll.config
+G:\Lap trinh CSDL\QuanLyChuyenBay\bin\Debug\DataLayer.dll.config
+G:\Lap trinh CSDL\QuanLyChuyenBay\bin\Debug\DataLayer.dll
+G:\Lap trinh CSDL\QuanLyChuyenBay\bin\Debug\DataLayer.pdb
+G:\Lap trinh CSDL\QuanLyChuyenBay\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+G:\Lap trinh CSDL\QuanLyChuyenBay\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+G:\Lap trinh CSDL\QuanLyChuyenBay\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+G:\Lap trinh CSDL\QuanLyChuyenBay\DataLayer\obj\Debug\DataLayer.dll
+G:\Lap trinh CSDL\QuanLyChuyenBay\DataLayer\obj\Debug\DataLayer.pdb
+D:\QuanLyChuyenBay\bin\Debug\DataLayer.dll.config
+D:\QuanLyChuyenBay\bin\Debug\DataLayer.dll
+D:\QuanLyChuyenBay\bin\Debug\DataLayer.pdb
+D:\QuanLyChuyenBay\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+D:\QuanLyChuyenBay\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+D:\QuanLyChuyenBay\DataLayer\obj\Debug\DataLayer.csproj.Up2Date
+D:\QuanLyChuyenBay\DataLayer\obj\Debug\DataLayer.dll
+D:\QuanLyChuyenBay\DataLayer\obj\Debug\DataLayer.pdb

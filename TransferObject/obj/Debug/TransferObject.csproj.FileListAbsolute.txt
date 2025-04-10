@@ -1,0 +1,32 @@
+C:\Users\DELL\Desktop\FlightManagement\TransferObject\bin\Debug\TransferObject.dll
+C:\Users\DELL\Desktop\FlightManagement\TransferObject\bin\Debug\TransferObject.pdb
+C:\Users\DELL\Desktop\FlightManagement\TransferObject\obj\Debug\TransferObject.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\FlightManagement\TransferObject\obj\Debug\TransferObject.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\FlightManagement\TransferObject\obj\Debug\TransferObject.dll
+C:\Users\DELL\Desktop\FlightManagement\TransferObject\obj\Debug\TransferObject.pdb
+C:\Users\DELL\Desktop\FlightManagement\bin\Debug\TransferObject.dll
+C:\Users\DELL\Desktop\FlightManagement\bin\Debug\TransferObject.pdb
+C:\Users\DELL\Desktop\QuanLyChuyenBay\bin\Debug\TransferObject.dll.config
+C:\Users\DELL\Desktop\QuanLyChuyenBay\bin\Debug\TransferObject.dll
+C:\Users\DELL\Desktop\QuanLyChuyenBay\bin\Debug\TransferObject.pdb
+C:\Users\DELL\Desktop\QuanLyChuyenBay\TransferObject\obj\Debug\TransferObject.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\QuanLyChuyenBay\TransferObject\obj\Debug\TransferObject.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\QuanLyChuyenBay\TransferObject\obj\Debug\Transfer.F5B4361A.Up2Date
+C:\Users\DELL\Desktop\QuanLyChuyenBay\TransferObject\obj\Debug\TransferObject.dll
+C:\Users\DELL\Desktop\QuanLyChuyenBay\TransferObject\obj\Debug\TransferObject.pdb
+G:\Lap trinh CSDL\QuanLyChuyenBay\bin\Debug\TransferObject.dll.config
+G:\Lap trinh CSDL\QuanLyChuyenBay\bin\Debug\TransferObject.dll
+G:\Lap trinh CSDL\QuanLyChuyenBay\bin\Debug\TransferObject.pdb
+G:\Lap trinh CSDL\QuanLyChuyenBay\TransferObject\obj\Debug\TransferObject.csproj.AssemblyReference.cache
+G:\Lap trinh CSDL\QuanLyChuyenBay\TransferObject\obj\Debug\TransferObject.csproj.CoreCompileInputs.cache
+G:\Lap trinh CSDL\QuanLyChuyenBay\TransferObject\obj\Debug\TransferObject.csproj.CopyComplete
+G:\Lap trinh CSDL\QuanLyChuyenBay\TransferObject\obj\Debug\TransferObject.dll
+G:\Lap trinh CSDL\QuanLyChuyenBay\TransferObject\obj\Debug\TransferObject.pdb
+D:\QuanLyChuyenBay\bin\Debug\TransferObject.dll.config
+D:\QuanLyChuyenBay\bin\Debug\TransferObject.dll
+D:\QuanLyChuyenBay\bin\Debug\TransferObject.pdb
+D:\QuanLyChuyenBay\TransferObject\obj\Debug\TransferObject.csproj.AssemblyReference.cache
+D:\QuanLyChuyenBay\TransferObject\obj\Debug\TransferObject.csproj.CoreCompileInputs.cache
+D:\QuanLyChuyenBay\TransferObject\obj\Debug\Transfer.F5B4361A.Up2Date
+D:\QuanLyChuyenBay\TransferObject\obj\Debug\TransferObject.dll
+D:\QuanLyChuyenBay\TransferObject\obj\Debug\TransferObject.pdb

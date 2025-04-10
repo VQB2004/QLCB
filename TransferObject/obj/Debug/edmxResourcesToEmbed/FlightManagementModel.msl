@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FlightManagementModelStoreContainer" CdmEntityContainer="FlightManagementContext">
+    <EntitySetMapping Name="ChucNangs">
+      <EntityTypeMapping TypeName="FlightManagementModel.ChucNang">
+        <MappingFragment StoreEntitySet="ChucNang">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChuyenBays">
+      <EntityTypeMapping TypeName="FlightManagementModel.ChuyenBay">
+        <MappingFragment StoreEntitySet="ChuyenBay">
+          <ScalarProperty Name="maCB" ColumnName="maCB" />
+          <ScalarProperty Name="ngayGioDi" ColumnName="ngayGioDi" />
+          <ScalarProperty Name="thoiGianBay" ColumnName="thoiGianBay" />
+          <ScalarProperty Name="tienTrinhID" ColumnName="tienTrinhID" />
+          <ScalarProperty Name="maTB" ColumnName="maTB" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ghes">
+      <EntityTypeMapping TypeName="FlightManagementModel.Ghe">
+        <MappingFragment StoreEntitySet="Ghe">
+          <ScalarProperty Name="maGhe" ColumnName="maGhe" />
+          <ScalarProperty Name="tenGhe" ColumnName="tenGhe" />
+          <ScalarProperty Name="hangGhe" ColumnName="hangGhe" />
+          <ScalarProperty Name="maMB" ColumnName="maMB" />
+          <ScalarProperty Name="tileGia" ColumnName="tileGia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ghe_ChuyenBay">
+      <EntityTypeMapping TypeName="FlightManagementModel.Ghe_ChuyenBay">
+        <MappingFragment StoreEntitySet="Ghe_ChuyenBay">
+          <ScalarProperty Name="maGhe" ColumnName="maGhe" />
+          <ScalarProperty Name="maCB" ColumnName="maCB" />
+          <ScalarProperty Name="trangThai" ColumnName="trangThai" />
+          <ScalarProperty Name="gia" ColumnName="gia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HoaDons">
+      <EntityTypeMapping TypeName="FlightManagementModel.HoaDon">
+        <MappingFragment StoreEntitySet="HoaDon">
+          <ScalarProperty Name="maHD" ColumnName="maHD" />
+          <ScalarProperty Name="ngayLapHD" ColumnName="ngayLapHD" />
+          <ScalarProperty Name="soLuongVe" ColumnName="soLuongVe" />
+          <ScalarProperty Name="tongTien" ColumnName="tongTien" />
+          <ScalarProperty Name="phuongThucTT" ColumnName="phuongThucTT" />
+          <ScalarProperty Name="maND" ColumnName="maND" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoaiMayBays">
+      <EntityTypeMapping TypeName="FlightManagementModel.LoaiMayBay">
+        <MappingFragment StoreEntitySet="LoaiMayBay">
+          <ScalarProperty Name="maLoaiMB" ColumnName="maLoaiMB" />
+          <ScalarProperty Name="tenLoaiMB" ColumnName="tenLoaiMB" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MayBays">
+      <EntityTypeMapping TypeName="FlightManagementModel.MayBay">
+        <MappingFragment StoreEntitySet="MayBay">
+          <ScalarProperty Name="maMB" ColumnName="maMB" />
+          <ScalarProperty Name="tenMB" ColumnName="tenMB" />
+          <ScalarProperty Name="slGheH1" ColumnName="slGheH1" />
+          <ScalarProperty Name="slGhePT" ColumnName="slGhePT" />
+          <ScalarProperty Name="maLoaiMB" ColumnName="maLoaiMB" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NguoiDungs">
+      <EntityTypeMapping TypeName="FlightManagementModel.NguoiDung">
+        <MappingFragment StoreEntitySet="NguoiDung">
+          <ScalarProperty Name="maND" ColumnName="maND" />
+          <ScalarProperty Name="hoTenND" ColumnName="hoTenND" />
+          <ScalarProperty Name="tenDangNhap" ColumnName="tenDangNhap" />
+          <ScalarProperty Name="ChucNangId" ColumnName="ChucNangId" />
+          <ScalarProperty Name="soDT" ColumnName="soDT" />
+          <ScalarProperty Name="matKhau" ColumnName="matKhau" />
+          <ScalarProperty Name="linkAnh" ColumnName="linkAnh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuyDinhs">
+      <EntityTypeMapping TypeName="FlightManagementModel.QuyDinh">
+        <MappingFragment StoreEntitySet="QuyDinh">
+          <ScalarProperty Name="maQD" ColumnName="maQD" />
+          <ScalarProperty Name="tenQD" ColumnName="tenQD" />
+          <ScalarProperty Name="noidungQD" ColumnName="noidungQD" />
+          <ScalarProperty Name="ngayCapNhat" ColumnName="ngayCapNhat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SanBays">
+      <EntityTypeMapping TypeName="FlightManagementModel.SanBay">
+        <MappingFragment StoreEntitySet="SanBay">
+          <ScalarProperty Name="maSB" ColumnName="maSB" />
+          <ScalarProperty Name="tenSB" ColumnName="tenSB" />
+          <ScalarProperty Name="tinhThanh" ColumnName="tinhThanh" />
+          <ScalarProperty Name="quocGia" ColumnName="quocGia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SanBayTrungGians">
+      <EntityTypeMapping TypeName="FlightManagementModel.SanBayTrungGian">
+        <MappingFragment StoreEntitySet="SanBayTrungGian">
+          <ScalarProperty Name="maSB" ColumnName="maSB" />
+          <ScalarProperty Name="maTB" ColumnName="maTB" />
+          <ScalarProperty Name="thoiGianDung" ColumnName="thoiGianDung" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TienTrinhs">
+      <EntityTypeMapping TypeName="FlightManagementModel.TienTrinh">
+        <MappingFragment StoreEntitySet="TienTrinh">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TuyenBays">
+      <EntityTypeMapping TypeName="FlightManagementModel.TuyenBay">
+        <MappingFragment StoreEntitySet="TuyenBay">
+          <ScalarProperty Name="maTB" ColumnName="maTB" />
+          <ScalarProperty Name="tenTB" ColumnName="tenTB" />
+          <ScalarProperty Name="sanBayDi" ColumnName="sanBayDi" />
+          <ScalarProperty Name="sanBayDen" ColumnName="sanBayDen" />
+          <ScalarProperty Name="giaTB" ColumnName="giaTB" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VeChuyenBays">
+      <EntityTypeMapping TypeName="FlightManagementModel.VeChuyenBay">
+        <MappingFragment StoreEntitySet="VeChuyenBay">
+          <ScalarProperty Name="maVe" ColumnName="maVe" />
+          <ScalarProperty Name="tenHK" ColumnName="tenHK" />
+          <ScalarProperty Name="maHD" ColumnName="maHD" />
+          <ScalarProperty Name="maGhe" ColumnName="maGhe" />
+          <ScalarProperty Name="maCB" ColumnName="maCB" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

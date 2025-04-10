@@ -1,0 +1,38 @@
+C:\Users\DELL\Desktop\FlightManagement\bin\Debug\BusinessLayer.dll
+C:\Users\DELL\Desktop\FlightManagement\bin\Debug\BusinessLayer.pdb
+C:\Users\DELL\Desktop\FlightManagement\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\FlightManagement\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\FlightManagement\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\DELL\Desktop\FlightManagement\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\DELL\Desktop\FlightManagement\BusinessLayer\obj\Debug\Business.EA331CBA.Up2Date
+G:\Lap trinh CSDL\BTL\QuanLyChuyenBay\bin\Debug\BusinessLayer.dll
+G:\Lap trinh CSDL\BTL\QuanLyChuyenBay\bin\Debug\BusinessLayer.pdb
+G:\Lap trinh CSDL\BTL\QuanLyChuyenBay\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+G:\Lap trinh CSDL\BTL\QuanLyChuyenBay\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+G:\Lap trinh CSDL\BTL\QuanLyChuyenBay\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+G:\Lap trinh CSDL\BTL\QuanLyChuyenBay\BusinessLayer\obj\Debug\BusinessLayer.dll
+G:\Lap trinh CSDL\BTL\QuanLyChuyenBay\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\DELL\Desktop\QuanLyChuyenBay\bin\Debug\BusinessLayer.dll
+C:\Users\DELL\Desktop\QuanLyChuyenBay\bin\Debug\BusinessLayer.pdb
+C:\Users\DELL\Desktop\QuanLyChuyenBay\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\QuanLyChuyenBay\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\QuanLyChuyenBay\BusinessLayer\obj\Debug\Business.EA331CBA.Up2Date
+C:\Users\DELL\Desktop\QuanLyChuyenBay\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\DELL\Desktop\QuanLyChuyenBay\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\DELL\Desktop\QuanLyChuyenBay\bin\Debug\BusinessLayer.dll.config
+G:\Lap trinh CSDL\QuanLyChuyenBay\bin\Debug\BusinessLayer.dll.config
+G:\Lap trinh CSDL\QuanLyChuyenBay\bin\Debug\BusinessLayer.dll
+G:\Lap trinh CSDL\QuanLyChuyenBay\bin\Debug\BusinessLayer.pdb
+G:\Lap trinh CSDL\QuanLyChuyenBay\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+G:\Lap trinh CSDL\QuanLyChuyenBay\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+G:\Lap trinh CSDL\QuanLyChuyenBay\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+G:\Lap trinh CSDL\QuanLyChuyenBay\BusinessLayer\obj\Debug\BusinessLayer.dll
+G:\Lap trinh CSDL\QuanLyChuyenBay\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\QuanLyChuyenBay\bin\Debug\BusinessLayer.dll.config
+D:\QuanLyChuyenBay\bin\Debug\BusinessLayer.dll
+D:\QuanLyChuyenBay\bin\Debug\BusinessLayer.pdb
+D:\QuanLyChuyenBay\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+D:\QuanLyChuyenBay\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\QuanLyChuyenBay\BusinessLayer\obj\Debug\Business.EA331CBA.Up2Date
+D:\QuanLyChuyenBay\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\QuanLyChuyenBay\BusinessLayer\obj\Debug\BusinessLayer.pdb

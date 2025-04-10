@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FlightManagementModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ChucNang">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Byte" Nullable="false" />
+    <Property Name="ten" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="NguoiDungs" Relationship="Self.FK_NguoiDung_ChucNang" FromRole="ChucNang" ToRole="NguoiDung" />
+  </EntityType>
+  <EntityType Name="ChuyenBay">
+    <Key>
+      <PropertyRef Name="maCB" />
+    </Key>
+    <Property Name="maCB" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ngayGioDi" Type="DateTime" Precision="3" />
+    <Property Name="thoiGianBay" Type="Int32" />
+    <Property Name="tienTrinhID" Type="Byte" Nullable="false" />
+    <Property Name="maTB" Type="Int32" />
+    <NavigationProperty Name="TuyenBay" Relationship="Self.FK__ChuyenBay__maTB__4316F928" FromRole="ChuyenBay" ToRole="TuyenBay" />
+    <NavigationProperty Name="Ghe_ChuyenBay" Relationship="Self.FK__Ghe_Chuyen__maCB__534D60F1" FromRole="ChuyenBay" ToRole="Ghe_ChuyenBay" />
+    <NavigationProperty Name="TienTrinh" Relationship="Self.FK_TienTrinh" FromRole="ChuyenBay" ToRole="TienTrinh" />
+  </EntityType>
+  <EntityType Name="Ghe">
+    <Key>
+      <PropertyRef Name="maGhe" />
+    </Key>
+    <Property Name="maGhe" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tenGhe" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="hangGhe" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="maMB" Type="Int32" />
+    <Property Name="tileGia" Type="Double" />
+    <NavigationProperty Name="MayBay" Relationship="Self.FK__Ghe__maMB__4F7CD00D" FromRole="Ghe" ToRole="MayBay" />
+    <NavigationProperty Name="Ghe_ChuyenBay" Relationship="Self.FK__Ghe_Chuye__maGhe__52593CB8" FromRole="Ghe" ToRole="Ghe_ChuyenBay" />
+  </EntityType>
+  <EntityType Name="Ghe_ChuyenBay">
+    <Key>
+      <PropertyRef Name="maGhe" />
+      <PropertyRef Name="maCB" />
+    </Key>
+    <Property Name="maGhe" Type="Int32" Nullable="false" />
+    <Property Name="maCB" Type="Int32" Nullable="false" />
+    <Property Name="trangThai" Type="Boolean" />
+    <Property Name="gia" Type="Double" />
+    <NavigationProperty Name="ChuyenBay" Relationship="Self.FK__Ghe_Chuyen__maCB__534D60F1" FromRole="Ghe_ChuyenBay" ToRole="ChuyenBay" />
+    <NavigationProperty Name="Ghe" Relationship="Self.FK__Ghe_Chuye__maGhe__52593CB8" FromRole="Ghe_ChuyenBay" ToRole="Ghe" />
+    <NavigationProperty Name="VeChuyenBays" Relationship="Self.FK__VeChuyenBay__619B8048" FromRole="Ghe_ChuyenBay" ToRole="VeChuyenBay" />
+  </EntityType>
+  <EntityType Name="HoaDon">
+    <Key>
+      <PropertyRef Name="maHD" />
+    </Key>
+    <Property Name="maHD" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ngayLapHD" Type="DateTime" Precision="0" />
+    <Property Name="soLuongVe" Type="Int32" />
+    <Property Name="tongTien" Type="Double" />
+    <Property Name="phuongThucTT" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="maND" Type="Int32" />
+    <NavigationProperty Name="NguoiDung" Relationship="Self.FK__HoaDon__maND__5DCAEF64" FromRole="HoaDon" ToRole="NguoiDung" />
+    <NavigationProperty Name="VeChuyenBays" Relationship="Self.FK__VeChuyenBa__maHD__60A75C0F" FromRole="HoaDon" ToRole="VeChuyenBay" />
+  </EntityType>
+  <EntityType Name="LoaiMayBay">
+    <Key>
+      <PropertyRef Name="maLoaiMB" />
+    </Key>
+    <Property Name="maLoaiMB" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tenLoaiMB" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="MayBays" Relationship="Self.FK__MayBay__maLoaiMB__4CA06362" FromRole="LoaiMayBay" ToRole="MayBay" />
+  </EntityType>
+  <EntityType Name="MayBay">
+    <Key>
+      <PropertyRef Name="maMB" />
+    </Key>
+    <Property Name="maMB" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tenMB" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="slGheH1" Type="Int32" />
+    <Property Name="slGhePT" Type="Int32" />
+    <Property Name="maLoaiMB" Type="Int32" />
+    <NavigationProperty Name="Ghes" Relationship="Self.FK__Ghe__maMB__4F7CD00D" FromRole="MayBay" ToRole="Ghe" />
+    <NavigationProperty Name="LoaiMayBay" Relationship="Self.FK__MayBay__maLoaiMB__4CA06362" FromRole="MayBay" ToRole="LoaiMayBay" />
+  </EntityType>
+  <EntityType Name="NguoiDung">
+    <Key>
+      <PropertyRef Name="maND" />
+    </Key>
+    <Property Name="maND" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="hoTenND" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="tenDangNhap" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ChucNangId" Type="Byte" Nullable="false" />
+    <Property Name="soDT" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="matKhau" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="linkAnh" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ChucNang" Relationship="Self.FK_NguoiDung_ChucNang" FromRole="NguoiDung" ToRole="ChucNang" />
+    <NavigationProperty Name="HoaDons" Relationship="Self.FK__HoaDon__maND__5DCAEF64" FromRole="NguoiDung" ToRole="HoaDon" />
+  </EntityType>
+  <EntityType Name="QuyDinh">
+    <Key>
+      <PropertyRef Name="maQD" />
+    </Key>
+    <Property Name="maQD" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tenQD" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="noidungQD" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ngayCapNhat" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="SanBay">
+    <Key>
+      <PropertyRef Name="maSB" />
+    </Key>
+    <Property Name="maSB" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tenSB" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="tinhThanh" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="quocGia" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="SanBayTrungGians" Relationship="Self.FK__SanBayTrun__maSB__46E78A0C" FromRole="SanBay" ToRole="SanBayTrungGian" />
+    <NavigationProperty Name="TuyenBays" Relationship="Self.FK__TuyenBay__sanBay__3B75D760" FromRole="SanBay" ToRole="TuyenBay" />
+    <NavigationProperty Name="TuyenBays1" Relationship="Self.FK__TuyenBay__sanBay__3C69FB99" FromRole="SanBay" ToRole="TuyenBay" />
+  </EntityType>
+  <EntityType Name="SanBayTrungGian">
+    <Key>
+      <PropertyRef Name="maSB" />
+      <PropertyRef Name="maTB" />
+    </Key>
+    <Property Name="maSB" Type="Int32" Nullable="false" />
+    <Property Name="maTB" Type="Int32" Nullable="false" />
+    <Property Name="thoiGianDung" Type="Time" Precision="7" />
+    <NavigationProperty Name="SanBay" Relationship="Self.FK__SanBayTrun__maSB__46E78A0C" FromRole="SanBayTrungGian" ToRole="SanBay" />
+    <NavigationProperty Name="TuyenBay" Relationship="Self.FK__SanBayTrun__maTB__47DBAE45" FromRole="SanBayTrungGian" ToRole="TuyenBay" />
+  </EntityType>
+  <EntityType Name="TienTrinh">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Byte" Nullable="false" />
+    <Property Name="ten" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="ChuyenBays" Relationship="Self.FK_TienTrinh" FromRole="TienTrinh" ToRole="ChuyenBay" />
+  </EntityType>
+  <EntityType Name="TuyenBay">
+    <Key>
+      <PropertyRef Name="maTB" />
+    </Key>
+    <Property Name="maTB" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tenTB" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="sanBayDi" Type="Int32" />
+    <Property Name="sanBayDen" Type="Int32" />
+    <Property Name="giaTB" Type="Double" />
+    <NavigationProperty Name="ChuyenBays" Relationship="Self.FK__ChuyenBay__maTB__4316F928" FromRole="TuyenBay" ToRole="ChuyenBay" />
+    <NavigationProperty Name="SanBay" Relationship="Self.FK__TuyenBay__sanBay__3B75D760" FromRole="TuyenBay" ToRole="SanBay" />
+    <NavigationProperty Name="SanBay1" Relationship="Self.FK__TuyenBay__sanBay__3C69FB99" FromRole="TuyenBay" ToRole="SanBay" />
+    <NavigationProperty Name="SanBayTrungGians" Relationship="Self.FK__SanBayTrun__maTB__47DBAE45" FromRole="TuyenBay" ToRole="SanBayTrungGian" />
+  </EntityType>
+  <EntityType Name="VeChuyenBay">
+    <Key>
+      <PropertyRef Name="maVe" />
+    </Key>
+    <Property Name="maVe" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tenHK" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="maHD" Type="Int32" />
+    <Property Name="maGhe" Type="Int32" />
+    <Property Name="maCB" Type="Int32" />
+    <NavigationProperty Name="Ghe_ChuyenBay" Relationship="Self.FK__VeChuyenBay__619B8048" FromRole="VeChuyenBay" ToRole="Ghe_ChuyenBay" />
+    <NavigationProperty Name="HoaDon" Relationship="Self.FK__VeChuyenBa__maHD__60A75C0F" FromRole="VeChuyenBay" ToRole="HoaDon" />
+  </EntityType>
+  <Association Name="FK_NguoiDung_ChucNang">
+    <End Role="ChucNang" Type="Self.ChucNang" Multiplicity="1" />
+    <End Role="NguoiDung" Type="Self.NguoiDung" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ChucNang">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="NguoiDung">
+        <PropertyRef Name="ChucNangId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ChuyenBay__maTB__4316F928">
+    <End Role="TuyenBay" Type="Self.TuyenBay" Multiplicity="0..1" />
+    <End Role="ChuyenBay" Type="Self.ChuyenBay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TuyenBay">
+        <PropertyRef Name="maTB" />
+      </Principal>
+      <Dependent Role="ChuyenBay">
+        <PropertyRef Name="maTB" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ghe_Chuyen__maCB__534D60F1">
+    <End Role="ChuyenBay" Type="Self.ChuyenBay" Multiplicity="1" />
+    <End Role="Ghe_ChuyenBay" Type="Self.Ghe_ChuyenBay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ChuyenBay">
+        <PropertyRef Name="maCB" />
+      </Principal>
+      <Dependent Role="Ghe_ChuyenBay">
+        <PropertyRef Name="maCB" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TienTrinh">
+    <End Role="TienTrinh" Type="Self.TienTrinh" Multiplicity="1" />
+    <End Role="ChuyenBay" Type="Self.ChuyenBay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TienTrinh">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ChuyenBay">
+        <PropertyRef Name="tienTrinhID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ghe__maMB__4F7CD00D">
+    <End Role="MayBay" Type="Self.MayBay" Multiplicity="0..1" />
+    <End Role="Ghe" Type="Self.Ghe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MayBay">
+        <PropertyRef Name="maMB" />
+      </Principal>
+      <Dependent Role="Ghe">
+        <PropertyRef Name="maMB" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ghe_Chuye__maGhe__52593CB8">
+    <End Role="Ghe" Type="Self.Ghe" Multiplicity="1" />
+    <End Role="Ghe_ChuyenBay" Type="Self.Ghe_ChuyenBay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ghe">
+        <PropertyRef Name="maGhe" />
+      </Principal>
+      <Dependent Role="Ghe_ChuyenBay">
+        <PropertyRef Name="maGhe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__VeChuyenBay__619B8048">
+    <End Role="Ghe_ChuyenBay" Type="Self.Ghe_ChuyenBay" Multiplicity="0..1" />
+    <End Role="VeChuyenBay" Type="Self.VeChuyenBay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ghe_ChuyenBay">
+        <PropertyRef Name="maGhe" />
+        <PropertyRef Name="maCB" />
+      </Principal>
+      <Dependent Role="VeChuyenBay">
+        <PropertyRef Name="maGhe" />
+        <PropertyRef Name="maCB" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HoaDon__maND__5DCAEF64">
+    <End Role="NguoiDung" Type="Self.NguoiDung" Multiplicity="0..1" />
+    <End Role="HoaDon" Type="Self.HoaDon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NguoiDung">
+        <PropertyRef Name="maND" />
+      </Principal>
+      <Dependent Role="HoaDon">
+        <PropertyRef Name="maND" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__VeChuyenBa__maHD__60A75C0F">
+    <End Role="HoaDon" Type="Self.HoaDon" Multiplicity="0..1" />
+    <End Role="VeChuyenBay" Type="Self.VeChuyenBay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HoaDon">
+        <PropertyRef Name="maHD" />
+      </Principal>
+      <Dependent Role="VeChuyenBay">
+        <PropertyRef Name="maHD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MayBay__maLoaiMB__4CA06362">
+    <End Role="LoaiMayBay" Type="Self.LoaiMayBay" Multiplicity="0..1" />
+    <End Role="MayBay" Type="Self.MayBay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoaiMayBay">
+        <PropertyRef Name="maLoaiMB" />
+      </Principal>
+      <Dependent Role="MayBay">
+        <PropertyRef Name="maLoaiMB" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SanBayTrun__maSB__46E78A0C">
+    <End Role="SanBay" Type="Self.SanBay" Multiplicity="1" />
+    <End Role="SanBayTrungGian" Type="Self.SanBayTrungGian" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SanBay">
+        <PropertyRef Name="maSB" />
+      </Principal>
+      <Dependent Role="SanBayTrungGian">
+        <PropertyRef Name="maSB" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TuyenBay__sanBay__3B75D760">
+    <End Role="SanBay" Type="Self.SanBay" Multiplicity="0..1" />
+    <End Role="TuyenBay" Type="Self.TuyenBay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SanBay">
+        <PropertyRef Name="maSB" />
+      </Principal>
+      <Dependent Role="TuyenBay">
+        <PropertyRef Name="sanBayDi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TuyenBay__sanBay__3C69FB99">
+    <End Role="SanBay" Type="Self.SanBay" Multiplicity="0..1" />
+    <End Role="TuyenBay" Type="Self.TuyenBay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SanBay">
+        <PropertyRef Name="maSB" />
+      </Principal>
+      <Dependent Role="TuyenBay">
+        <PropertyRef Name="sanBayDen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SanBayTrun__maTB__47DBAE45">
+    <End Role="TuyenBay" Type="Self.TuyenBay" Multiplicity="1" />
+    <End Role="SanBayTrungGian" Type="Self.SanBayTrungGian" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TuyenBay">
+        <PropertyRef Name="maTB" />
+      </Principal>
+      <Dependent Role="SanBayTrungGian">
+        <PropertyRef Name="maTB" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FlightManagementContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ChucNangs" EntityType="Self.ChucNang" />
+    <EntitySet Name="ChuyenBays" EntityType="Self.ChuyenBay" />
+    <EntitySet Name="Ghes" EntityType="Self.Ghe" />
+    <EntitySet Name="Ghe_ChuyenBay" EntityType="Self.Ghe_ChuyenBay" />
+    <EntitySet Name="HoaDons" EntityType="Self.HoaDon" />
+    <EntitySet Name="LoaiMayBays" EntityType="Self.LoaiMayBay" />
+    <EntitySet Name="MayBays" EntityType="Self.MayBay" />
+    <EntitySet Name="NguoiDungs" EntityType="Self.NguoiDung" />
+    <EntitySet Name="QuyDinhs" EntityType="Self.QuyDinh" />
+    <EntitySet Name="SanBays" EntityType="Self.SanBay" />
+    <EntitySet Name="SanBayTrungGians" EntityType="Self.SanBayTrungGian" />
+    <EntitySet Name="TienTrinhs" EntityType="Self.TienTrinh" />
+    <EntitySet Name="TuyenBays" EntityType="Self.TuyenBay" />
+    <EntitySet Name="VeChuyenBays" EntityType="Self.VeChuyenBay" />
+    <AssociationSet Name="FK_NguoiDung_ChucNang" Association="Self.FK_NguoiDung_ChucNang">
+      <End Role="ChucNang" EntitySet="ChucNangs" />
+      <End Role="NguoiDung" EntitySet="NguoiDungs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ChuyenBay__maTB__4316F928" Association="Self.FK__ChuyenBay__maTB__4316F928">
+      <End Role="TuyenBay" EntitySet="TuyenBays" />
+      <End Role="ChuyenBay" EntitySet="ChuyenBays" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ghe_Chuyen__maCB__534D60F1" Association="Self.FK__Ghe_Chuyen__maCB__534D60F1">
+      <End Role="ChuyenBay" EntitySet="ChuyenBays" />
+      <End Role="Ghe_ChuyenBay" EntitySet="Ghe_ChuyenBay" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TienTrinh" Association="Self.FK_TienTrinh">
+      <End Role="TienTrinh" EntitySet="TienTrinhs" />
+      <End Role="ChuyenBay" EntitySet="ChuyenBays" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ghe__maMB__4F7CD00D" Association="Self.FK__Ghe__maMB__4F7CD00D">
+      <End Role="MayBay" EntitySet="MayBays" />
+      <End Role="Ghe" EntitySet="Ghes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ghe_Chuye__maGhe__52593CB8" Association="Self.FK__Ghe_Chuye__maGhe__52593CB8">
+      <End Role="Ghe" EntitySet="Ghes" />
+      <End Role="Ghe_ChuyenBay" EntitySet="Ghe_ChuyenBay" />
+    </AssociationSet>
+    <AssociationSet Name="FK__VeChuyenBay__619B8048" Association="Self.FK__VeChuyenBay__619B8048">
+      <End Role="Ghe_ChuyenBay" EntitySet="Ghe_ChuyenBay" />
+      <End Role="VeChuyenBay" EntitySet="VeChuyenBays" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HoaDon__maND__5DCAEF64" Association="Self.FK__HoaDon__maND__5DCAEF64">
+      <End Role="NguoiDung" EntitySet="NguoiDungs" />
+      <End Role="HoaDon" EntitySet="HoaDons" />
+    </AssociationSet>
+    <AssociationSet Name="FK__VeChuyenBa__maHD__60A75C0F" Association="Self.FK__VeChuyenBa__maHD__60A75C0F">
+      <End Role="HoaDon" EntitySet="HoaDons" />
+      <End Role="VeChuyenBay" EntitySet="VeChuyenBays" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MayBay__maLoaiMB__4CA06362" Association="Self.FK__MayBay__maLoaiMB__4CA06362">
+      <End Role="LoaiMayBay" EntitySet="LoaiMayBays" />
+      <End Role="MayBay" EntitySet="MayBays" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SanBayTrun__maSB__46E78A0C" Association="Self.FK__SanBayTrun__maSB__46E78A0C">
+      <End Role="SanBay" EntitySet="SanBays" />
+      <End Role="SanBayTrungGian" EntitySet="SanBayTrungGians" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TuyenBay__sanBay__3B75D760" Association="Self.FK__TuyenBay__sanBay__3B75D760">
+      <End Role="SanBay" EntitySet="SanBays" />
+      <End Role="TuyenBay" EntitySet="TuyenBays" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TuyenBay__sanBay__3C69FB99" Association="Self.FK__TuyenBay__sanBay__3C69FB99">
+      <End Role="SanBay" EntitySet="SanBays" />
+      <End Role="TuyenBay" EntitySet="TuyenBays" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SanBayTrun__maTB__47DBAE45" Association="Self.FK__SanBayTrun__maTB__47DBAE45">
+      <End Role="TuyenBay" EntitySet="TuyenBays" />
+      <End Role="SanBayTrungGian" EntitySet="SanBayTrungGians" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

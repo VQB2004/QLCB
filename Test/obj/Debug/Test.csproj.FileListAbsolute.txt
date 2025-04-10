@@ -1,0 +1,16 @@
+D:\QuanLyChuyenBay\Test\bin\Debug\Test.exe.config
+D:\QuanLyChuyenBay\Test\bin\Debug\Test.exe
+D:\QuanLyChuyenBay\Test\bin\Debug\Test.pdb
+D:\QuanLyChuyenBay\Test\bin\Debug\DataLayer.dll
+D:\QuanLyChuyenBay\Test\bin\Debug\TransferObject.dll
+D:\QuanLyChuyenBay\Test\bin\Debug\EntityFramework.dll
+D:\QuanLyChuyenBay\Test\bin\Debug\DataLayer.pdb
+D:\QuanLyChuyenBay\Test\bin\Debug\DataLayer.dll.config
+D:\QuanLyChuyenBay\Test\bin\Debug\TransferObject.pdb
+D:\QuanLyChuyenBay\Test\bin\Debug\TransferObject.dll.config
+D:\QuanLyChuyenBay\Test\bin\Debug\EntityFramework.xml
+D:\QuanLyChuyenBay\Test\obj\Debug\Test.csproj.AssemblyReference.cache
+D:\QuanLyChuyenBay\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+D:\QuanLyChuyenBay\Test\obj\Debug\Test.csproj.Up2Date
+D:\QuanLyChuyenBay\Test\obj\Debug\Test.exe
+D:\QuanLyChuyenBay\Test\obj\Debug\Test.pdb
